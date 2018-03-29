@@ -116,5 +116,6 @@ TTC_BREAK=...
 
 - did you forget to export your `TTC_REPOS` environment variable? Open a new tab, and type `echo $TTC_REPOS` to make sure it's not empty. Note that spaces inside the repo names are not supported right now :(
 - did you use `yarn`? I know `yarn` is cool, and I've seen it work with this, but can you double check that it still doesn't work with a basic `npm` installation instead?
+- make sure `which git-standup` returns a path. If it doesn't, try `npm install -g git-standup`
 
 **Take care of yourself, ok? 💖**
